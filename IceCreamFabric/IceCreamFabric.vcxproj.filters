@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Departments">
+      <UniqueIdentifier>{738ea6d2-4849-4d63-bcea-701c48947389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Workers">
+      <UniqueIdentifier>{859b7c6c-a30c-4f17-93c3-a51125ce9484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Workers">
+      <UniqueIdentifier>{04055b82-39f7-496e-82dc-2cb8a583285a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Departments">
+      <UniqueIdentifier>{9ab0e0ad-7ed6-49f3-bbc4-0043fbcce326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Ices">
+      <UniqueIdentifier>{461e49d8-d178-419c-bd3f-49891fe55049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Ices">
+      <UniqueIdentifier>{e41eb483-92d9-4bd9-9f55-821b458e0663}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IceCreamFabric.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CSeller.cpp">
+      <Filter>Файлы ресурсов\Workers</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorker.cpp">
+      <Filter>Файлы ресурсов\Workers</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorkMan.cpp">
+      <Filter>Файлы ресурсов\Workers</Filter>
+    </ClCompile>
+    <ClCompile Include="CDepartment.cpp">
+      <Filter>Файлы ресурсов\Departments</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactory.cpp">
+      <Filter>Файлы ресурсов\Departments</Filter>
+    </ClCompile>
+    <ClCompile Include="CSellingRoom.cpp">
+      <Filter>Файлы ресурсов\Departments</Filter>
+    </ClCompile>
+    <ClCompile Include="CIce.cpp">
+      <Filter>Файлы ресурсов\Ices</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CWorkMan.h">
+      <Filter>Файлы заголовков\Workers</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorker.h">
+      <Filter>Файлы заголовков\Workers</Filter>
+    </ClInclude>
+    <ClInclude Include="CSeller.h">
+      <Filter>Файлы заголовков\Workers</Filter>
+    </ClInclude>
+    <ClInclude Include="CDepartment.h">
+      <Filter>Файлы заголовков\Departments</Filter>
+    </ClInclude>
+    <ClInclude Include="CFactory.h">
+      <Filter>Файлы заголовков\Departments</Filter>
+    </ClInclude>
+    <ClInclude Include="CSellingRoom.h">
+      <Filter>Файлы заголовков\Departments</Filter>
+    </ClInclude>
+    <ClInclude Include="CIce.h">
+      <Filter>Файлы заголовков\Ices</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
